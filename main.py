@@ -1,7 +1,7 @@
 import customtkinter as ctk
-from sentence_typing.full_accuracy_mode import FullAccuracyMode
+#from sentence_typing.full_accuracy_mode import FullAccuracyMode
 from sentence_typing.measure_accuracy_mode import MeasureAccuracyMode
-from word_typing.word_typing_mode import WordTypingMode
+#from word_typing.word_typing_mode import WordTypingMode
 from config import BACKGROUND_COLOR, SELECTION_COLOR, FAC_COLOR, MAC_COLOR, WTG_COLOR
 from db.database_manager import DatabaseManager
 from PIL import Image, ImageTk

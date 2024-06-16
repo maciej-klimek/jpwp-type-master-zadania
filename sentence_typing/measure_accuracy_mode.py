@@ -49,8 +49,7 @@ class MeasureAccuracyMode():
                     char if char == " " else "_" for char in self.correct_text
                 )
                 self.gui.text_label.configure(text=self.hidden_correct_text)
-                self.logger.debug(f"Sentence from database: {
-                                  self.correct_text}")
+                self.logger.debug(f"Sentence from database: {self.correct_text}")
             else:
                 self.logger.error("No sentences found in the database.")
 
@@ -176,8 +175,7 @@ class MeasureAccuracyMode():
             user_input_words = user_input.split()
             correct_text_words = self.correct_text_words[0:len(
                 user_input_words)]
-            self.logger.debug(f"User input: {user_input_words}   |   Correct text: {
-                              correct_text_words}")
+            self.logger.debug(f"User input: {user_input_words}   |   Correct text: {correct_text_words}")
 
             for user_word, correct_word in zip(user_input_words, correct_text_words):
                 try:
@@ -196,8 +194,7 @@ class MeasureAccuracyMode():
             # wartość którą chcemy wyświetlić w aplikaacji. (Podpowiedź, dokładność = stosunek dobrze napisancych liter / stosunek wszystkich napisanych liter)
 
             # ------------------------------------------------------------------------------------------------------------------------------------------------- #
-            self.logger.debug(
-                f"Accuracy: {self.accuracy} %\n----------------------")
+            self.logger.debug(f"Accuracy: {self.accuracy} %\n----------------------")
         except Exception as e:
             self.logger.error(f"Error calculating accuracy: {e}")
 
