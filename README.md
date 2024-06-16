@@ -26,7 +26,7 @@ _Struktury klas są już gotowe, trzeba uzupełnić brakujący kod w wyznaczonyc
 
 _Na UPeL wyślij screenshot efektu, który udało ci się uzyskać_
 
-<br><br>
+<br>
 
 # Zadanie 3:
 pliki do modyfikacji: gui/gui_main
