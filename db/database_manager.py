@@ -82,7 +82,7 @@ class CTkInputDialog(ctk.CTkToplevel):
         self.input_textbox.bind("<Escape>", lambda event: self.on_cancel())
 
     def on_ok(self):
-        self.result = self.input_textbox.get()
+        self.result = self.input_textbox.get(0.0, "end")
         self.destroy()
 
     def on_cancel(self):
