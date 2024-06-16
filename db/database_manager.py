@@ -172,8 +172,7 @@ class DatabaseManager(ctk.CTk):
             new_entry = dialog.result
             if new_entry:
                 update_record(table, record_id, new_entry)
-                messagebox.showinfo("Success", f"Record ID {
-                                    record_id} updated.")
+                messagebox.showinfo("Success", f"Record ID {record_id} updated.")
                 self.view_records()
 
     def delete_record(self):
