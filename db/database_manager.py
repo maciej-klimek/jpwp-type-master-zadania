@@ -177,8 +177,7 @@ class DatabaseManager(ctk.CTk):
 
     def delete_record(self):
         table = self.table.get()
-        dialog = CTkInputDialog(self, title="Input",
-                                prompt="Enter record ID to delete:")
+        dialog = CTkInputDialog(self, title="Input", prompt="Enter record ID to delete:")
         self.wait_window(dialog)
         record_id = dialog.result
         if record_id:
