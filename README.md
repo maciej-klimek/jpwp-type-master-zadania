@@ -9,7 +9,7 @@ W tym repo umieszczona jest "okrojona" wersja projektu z zaimplementowanym jedny
 <br><br>
 
 # Zadanie 1:
-**Cel:** Stoszyc klasy widgetów odpowiedzialnych za wyświetlanie dokładności i szybkości pisanego tekstu.
+**Cel:** Stworzyć klasy widgetów odpowiedzialnych za wyświetlanie dokładności i szybkości pisanego tekstu.
 
 >**Instrukcja:** W plikach 'gui/speed_label.py' i 'gui/accuracy_label.py' utwórz odpowiednie definicje klas (sugerując się definicjami innych, już gotowych widgetów) tak, aby poprawnie wyświetlały pożądane statystyki.
 
