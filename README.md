@@ -5,7 +5,7 @@
 # Wstęp:
 W tym repo umieszczona jest "okrojona" wersja projektu z zaimplementowanym jednym trybem - **Measure Accuracy Mode**.
 
->Zadania do wykonania w uogólnieniu polegają na **zaimplementowaniu wigetów** _(UI i funkcjonalności)_ pokazujących na bieżąco statystyki dokładności i szybkości pisania. Cała implementacja dotyczy plików zawartych w module 'sentence_typing'. W poszczególnych plikach zaznaczone są miejsca (wraz z dodatkowymi instrukcjami), w których należy dodać/zmodyfikować fragmenty kodu.
+>Zadania do wykonania w uogólnieniu polegają na **zaimplementowaniu widgetów** _(UI i funkcjonalności)_ pokazujących na bieżąco statystyki dokładności i szybkości pisania. Cała implementacja dotyczy plików zawartych w module 'sentence_typing'. W poszczególnych plikach zaznaczone są miejsca (wraz z dodatkowymi instrukcjami), w których należy dodać/zmodyfikować fragmenty kodu.
 <br><br>
 
 # Zadanie 1:
