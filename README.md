@@ -30,7 +30,7 @@ _Na UPeL wyślij screenshot efektu, który udało ci się uzyskać_
 
 # Zadanie 3:
 pliki do modyfikacji: gui/gui_main
-**Cel:** Sprawić, że widget 'accuracy_label' na bierząco wyświetla dokładność, jaką udało się osiągnąć userowi
+**Cel:** Sprawić, że widget 'accuracy_label' na bieżąco wyświetla dokładność, jaką udało się osiągnąć userowi
 
 >**Instrukcja:** W pliku 'measure_accuracy_mode.py' dodać i zmodyfikować odpowiednie fragmenty kodu, aby uzyskać porządane działanie (dokładniejsze instrukcje zawarte są w komentarzasz w kodzie).
 
@@ -42,7 +42,7 @@ _Na UPeL wyślij screenshot efektu, który udało ci się uzyskać_
 <br><br>
 
 # Zadanie 4:
-**Cel:** Sprawić, że widget 'speed_label' na bierząco wyświetla szybkość (wpm, cpm, cps) z jaką aktualnie pisze user.
+**Cel:** Sprawić, że widget 'speed_label' na bieżąco wyświetla szybkość (wpm, cpm, cps) z jaką aktualnie pisze user.
 
 >**Instrukcja:** W pliku 'measure_accuracy_mode.py' dodać i zmodyfikować odpowiednie fragmenty kodu aby uzyskać porządane działanie (dokładniejsze instrukcje zawarte są w komentarzasz w kodzie).
 
